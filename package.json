@@ -1,0 +1,17 @@
+{
+  "name": "restojaponaisbootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/global.scss styles/style.css", 
+    "purge": "purgecss --css styles/style.css --content menu.html --output styles/cleaned/style3.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.58.3"
+  }
+}
